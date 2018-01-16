@@ -23,3 +23,6 @@ set shiftwidth=2
 set expandtab
 set smartindent
 set autoindent
+
+"Highlingt matching mapenthesis
+set showmatch
