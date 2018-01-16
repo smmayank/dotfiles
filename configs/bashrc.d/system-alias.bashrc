@@ -1,0 +1,5 @@
+alias "ls=ls -G"
+alias "l=ls -lih"
+alias "ll=l -a"
+alias "v=vim"
+alias "g=grep --color"

@@ -32,3 +32,4 @@ fi
 # create links for configs
 create_link .vimrc "$config_dir/vimrc"
 create_link .vim "$config_dir/vim"
+create_link .bashrc.d "$config_dir/bashrc.d"
