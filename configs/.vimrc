@@ -5,9 +5,13 @@ colorscheme Tomorrow-Night
 " Show line numbers
 set number
 
-" Leader key maps
-" s -> reload vimrc config
+" Leader key maps use these keys after leader "\"
+" s       -> reload vimrc config
 map <leader>s :source ~/.vimrc<CR>
+" Enter   -> highlight search
+nnoremap <silent> <leader><CR> :set hlsearch<CR>
+" Escape  -> clear highlighting
+nnoremap <silent> <leader><Esc> :set nohlsearch<Bar>:echo<CR>
 
 " Enable file level indentations
 filetype indent on
@@ -19,9 +23,3 @@ set shiftwidth=2
 set expandtab
 set smartindent
 set autoindent
-
-" Highlight search
-set hlsearch
-
-" Clear search result with escape
-nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
