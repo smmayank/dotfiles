@@ -26,3 +26,6 @@ set autoindent
 
 "Highlingt matching mapenthesis
 set showmatch
+
+" Enable pathogen
+execute pathogen#infect()
