@@ -13,7 +13,7 @@ nnoremap <silent> <leader><CR> :set hlsearch<CR>
 " Escape  -> clear highlighting
 nnoremap <silent> <leader><Esc> :set nohlsearch<Bar>:echo<CR>
 " t       -> toggle NERDTree
-map <leader>t :NERDTree<CR>
+map <leader>t :NERDTreeToggle<CR>
 
 " Enable file level indentations
 filetype indent on
